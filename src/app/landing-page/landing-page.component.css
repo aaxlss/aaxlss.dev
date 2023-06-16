@@ -1,0 +1,54 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.hero {
+  background: #f5f5f5;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.experience {
+  padding: 50px 0;
+}
+
+.timeline {
+  position: relative;
+  margin-top: 50px;
+}
+
+.timeline-item {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  position: relative;
+}
+
+.timeline-item-content {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background: #ccc;
+  top: 0;
+  left: 20px;
+}
+
+.timeline-item:last-child::before {
+  height: 50%;
+}
+
+h3,
+h4,
+p {
+  margin: 0;
+}
