@@ -1,12 +1,28 @@
 <section class="hero">
   <div class="container">
-    <h1>Welcome to My CV</h1>
+    <h1>{{ name }}</h1>
     <p>{{ introduction }}</p>
   </div>
 </section>
 
 <section class="experience">
   <div class="container">
+    <h2>Soft skills</h2>
+    <div class="timeline timeline-item-content">
+      <ul>
+        <li *ngFor="let softSkill of softSkills">
+          {{ softSkill }}
+        </li>
+      </ul>
+    </div>
+    <h2>Technical skills</h2>
+    <div class="timeline timeline-item-content">
+      <ul>
+        <li *ngFor="let technicalSkills of technicalSkills">
+          {{ technicalSkills }}
+        </li>
+      </ul>
+    </div>
     <h2>Experience</h2>
     <div class="timeline">
       <div class="timeline-item" *ngFor="let experience of experiences">
@@ -21,6 +37,47 @@
           </ul>
         </div>
       </div>
+    </div>
+    <h2>Volunteering</h2>
+    <div class="timeline">
+      <div class="timeline-item" *ngFor="let volunteer of volunteering">
+        <div class="timeline-item-content">
+          <h3>{{ volunteer.place }}</h3>
+          <h4>{{ volunteer.country }}</h4>
+          <p>{{ volunteer.duration }}</p>
+          <p>{{ volunteer.description }}</p>
+        </div>
+      </div>
+    </div>
+    <h2>education</h2>
+    <div class="timeline">
+      <div
+        class="timeline timeline-item-content"
+        *ngFor="let school of education"
+      >
+        <h3>{{ school.name }}</h3>
+        <h4>{{ school.duration }}</h4>
+        <p>{{ school.degree }}</p>
+      </div>
+    </div>
+    <h2>Certifications</h2>
+    <div class="timeline">
+      <div
+        class="timeline timeline-item-content"
+        *ngFor="let certificate of certifications"
+      >
+        <h3>{{ certificate.name }}</h3>
+        <h4>{{ certificate.issue }}</h4>
+        <p>{{ certificate.credentialId }}</p>
+      </div>
+    </div>
+    <h2>Lenguages</h2>
+    <div class="timeline timeline-item-content">
+      <ul>
+        <li *ngFor="let language of languages">
+          {{ language }}
+        </li>
+      </ul>
     </div>
   </div>
 </section>
