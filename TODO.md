@@ -8,3 +8,5 @@
 - [ ] improve design
 
 ### Completed tasks
+
+- [x] change the project name to aaxlss.dev
