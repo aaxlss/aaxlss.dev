@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "src",
+    "public": "dist/aaxlss.dev",
     "ignore": [
       "firebase.json",
       "**/.*",
