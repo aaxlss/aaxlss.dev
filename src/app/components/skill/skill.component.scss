@@ -1,0 +1,10 @@
+@import "../../../styles.scss";
+
+.skill {
+  font-weight: 700;
+  color: $light_green;
+  background-color: $dark_green;
+  border-color: $dark_green;
+  border-style: solid;
+  display: inline-block;
+}
