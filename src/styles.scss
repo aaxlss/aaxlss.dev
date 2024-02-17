@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*Colors Variables*/
+$dark_green: #1b342f;
+$black: #000000;
+$dark_grey: #1e1e1e;
+$white: #ffffff;
+$light_green: #00ffc4;
+$blue: #0000ee;
+$dark_purple: #551a8b;
+
+/*Font Variables*/
