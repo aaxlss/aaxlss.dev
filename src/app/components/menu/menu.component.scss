@@ -1,0 +1,11 @@
+@import "../../../styles.scss";
+.menu {
+  color: $white;
+  li {
+    &:hover {
+      color: $light_green;
+      cursor: pointer;
+      border-color: $light_green;
+    }
+  }
+}

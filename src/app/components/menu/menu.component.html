@@ -1,0 +1,15 @@
+<div class="menu-box w-1/2 block absolute">
+  <ul class="menu m-0 p-0 box-border">
+    @for (option of menuOptions; track option.label){
+    <li
+      class="border-l-2 border-solid border-white m-2 list-none hover:border-l-8 hover:duration-500"
+    >
+      <span class="pl-1">
+        {{ option.label | uppercase }}
+      </span>
+    </li>
+    } @empty {
+    <span>No Options available</span>
+    }
+  </ul>
+</div>

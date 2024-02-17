@@ -2,7 +2,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/*Font Variables*/
+@font-face {
+  font-family: "Roboto";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+}
 
+html,
+body,
+app-root {
+  font-family: "Roboto", sans-serif !important;
+  height: 100%;
+  display: block;
+}
 /*Colors Variables*/
 $dark_green: #1b342f;
 $black: #000000;
@@ -11,5 +23,3 @@ $white: #ffffff;
 $light_green: #00ffc4;
 $blue: #0000ee;
 $dark_purple: #551a8b;
-
-/*Font Variables*/
