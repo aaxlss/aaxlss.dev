@@ -1,5 +1,34 @@
-<div class="container h-max">
-  <h1 class="text-3xl font-bold underline">Hello world!</h1>
-  <skill-component></skill-component>
-  <menu-component [menuOptions]="menuOptions"></menu-component>
+<div class="content max-h-full">
+  <div class="flex max-h-full">
+    <div class="left-div flex flex-col max-h-full">
+      <div class="intro w-1/2">
+        <h1 class="name text-8xl font-black">Axel Sanchez</h1>
+        <h2 class="position">Software Engineer at Upland Altify</h2>
+        <p class="description">
+          Passionate engineer developing applications, encouraging teamwork,
+          empowering others, and continuously learning.
+          <br />
+          Extensive experience since 2016.
+        </p>
+      </div>
+      <menu-component [menuOptions]="menuOptions"></menu-component>
+      <div class="social-network">
+        <img
+          ngSrc="\assets\images\github.svg"
+          class="social"
+          height="40"
+          width="40"
+        />
+        <img
+          ngSrc="\assets\images\linkedIn.svg"
+          class="social"
+          height="40"
+          width="40"
+        />
+      </div>
+    </div>
+    <div class="right-div flex-1 flex overflow-hidden">
+      <skill-component></skill-component>
+    </div>
+  </div>
 </div>

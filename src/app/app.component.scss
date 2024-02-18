@@ -1,13 +1,19 @@
 @import "../styles.scss";
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 body {
   font-family: "Roboto", sans-serif;
 }
-.container {
-  background-color: $dark_grey;
-  height: inherit;
+.name,
+.description {
+  color: $white;
+}
+.position {
+  color: $light_green;
+}
+.content {
+  height: 100%;
+  width: 100%;
+}
+.social {
+  fill: red;
 }
