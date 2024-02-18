@@ -31,8 +31,8 @@
         />
       </div>
     </div>
-    <div class="right-div w-2/4 overflow-auto p-4">
-      <div class="grid grid-cols-1 place-content-center">
+    <div class="right-div w-2/4 overflow-auto p-4 grid place-items-center">
+      <div class="grid grid-cols-1 place-content-center mb-4">
         <img
           src="/assets/images/axel_sanchez.jpeg"
           class="profile-img w-60 h-60 p-1 rounded-full ring-4"
@@ -53,11 +53,11 @@
       <!-- Hard Skills List -->
       <skill-component [skillList]="hardSkills"></skill-component>
       <!-- Experience Description -->
-      <div class="columns-2xl">
+      <div class="grid grid-cols-4 mb-3">
         <div class="time-experience">
           <h4>{{ "2022 - PRESENT" }}</h4>
         </div>
-        <div class="text-description">
+        <div class="text-description col-span-3">
           <h5 class="position-title">Software Engineer | Upland Alfity</h5>
           <p>
             As a Full Stack developer, I specialize in both back-end and
@@ -77,16 +77,16 @@
           </p>
           <skill-component [skillList]="hardSkills"></skill-component>
         </div>
-        <!-- Certifcations -->
-        <div class="certification-description">
-          <div class="date">
-            <span>OCTOBER 2022</span>
-          </div>
-          <div class="text-description">
-            <div class="certification-info light-green-tex">
-              <h5 class="light-green-text">Microsoft Azure Fundamentals</h5>
-              <p>nu4a-Dw8E</p>
-            </div>
+      </div>
+      <!-- Certifcations -->
+      <div class="certification-description w-full grid grid-cols-4">
+        <div class="date">
+          <span>OCTOBER 2022</span>
+        </div>
+        <div class="text-description col-span-3">
+          <div class="certification-info light-green-tex">
+            <h5 class="light-green-text">Microsoft Azure Fundamentals</h5>
+            <p>nu4a-Dw8E</p>
           </div>
         </div>
       </div>

@@ -1,7 +1,9 @@
-@for (skill of skillList; track skill.label) {
-<span
-  class="text-xs border-4 border-solid w-max content-center rounded-2xl px-1 py-0 max-h-14 align-middle skill"
-  >{{ skill.label }}</span
->
+<div>
+  @for (skill of skillList; track skill.label) {
+  <span
+    class="m-2 text-xs border-4 border-solid w-max content-center rounded-2xl px-1 py-0 max-h-14 align-middle skill"
+    >{{ skill.label }}</span
+  >
 
-}
+  }
+</div>
