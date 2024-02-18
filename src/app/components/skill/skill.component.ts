@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Option } from '../../Interface';
 
 @Component({
   selector: 'skill-component',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
   templateUrl: './skill.component.html',
   styleUrl: './skill.component.scss',
 })
-export class SkillComponent {}
+export class SkillComponent {
+  @Input() skillList: Option[] = [];
+}
