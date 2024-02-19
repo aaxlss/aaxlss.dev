@@ -1,9 +1,10 @@
-<div class="content max-h-full overflow-hidden">
-  <div class="flex max-h-full">
-    <div class="left-div w-2/4 grid grid-cols-1 place-items-center">
-      <div class="intro w-2/3">
-        <h1 class="name text-8xl font-black">Axel Sanchez</h1>
-        <h2 class="position">Software Engineer at Upland Altify</h2>
+<div class="grid grid-cols-6 max-h-full overflow-hidden">
+  <!-- Left Section -->
+  <div class="left-div col-span-3 px-6 py-5">
+    <div class="h-screen grid grid-rows-4 grid-cols-1">
+      <div class="intro row-span-2">
+        <h2 class="name text-8xl font-black">Axel <br />Sanchez</h2>
+        <h2 class="position mb-3">Software Engineer at Upland Altify</h2>
         <p class="description">
           Passionate engineer developing applications, encouraging teamwork,
           empowering others, and continuously learning.
@@ -11,83 +12,88 @@
           Extensive experience since 2016.
         </p>
       </div>
-      <div class="grid place-items-start w-2/3">
+      <div class="grid place-items-start row-span-1">
         <menu-component [menuOptions]="menuOptions"></menu-component>
       </div>
-      <div
-        class="social-network grid-rows-1 grid-cols-1 w-2/3 place-items-start inline-flex"
-      >
-        <img
-          ngSrc="\assets\images\github.svg"
-          class="social first-of-type:mr-3"
-          height="40"
-          width="40"
-        />
-        <img
-          ngSrc="\assets\images\linkedIn.svg"
-          class="social"
-          height="40"
-          width="40"
-        />
+      <div class="row-span-1 pt-4">
+        <div
+          class="social-network grid-rows-1 grid-cols-1 place-items-start inline-flex"
+        >
+          <img
+            ngSrc="\assets\images\github.svg"
+            class="social first-of-type:mr-3"
+            height="40"
+            width="40"
+          />
+          <img
+            ngSrc="\assets\images\linkedIn.svg"
+            class="social"
+            height="40"
+            width="40"
+          />
+        </div>
       </div>
     </div>
-    <div class="right-div w-2/4 overflow-auto p-4 grid place-items-center">
-      <div class="grid grid-cols-1 place-content-center mb-4">
-        <img
-          src="/assets/images/axel_sanchez.jpeg"
-          class="profile-img w-60 h-60 p-1 rounded-full ring-4"
-        />
+  </div>
+  <!-- Right section -->
+  <div
+    class="right-div max-h-screen p-4 grid place-items-center col-start-4 col-end-7 overflow-y-scroll px-9"
+  >
+    <div class="grid grid-cols-1 place-content-center mb-4">
+      <img
+        src="/assets/images/axel_sanchez.jpeg"
+        class="profile-img w-60 h-60 p-1 rounded-full ring-4"
+      />
+    </div>
+    <p class="text-description">
+      My passion is to
+      <span class="light-green-text">develop applications</span> for companies
+      that need automated processes to save money and time. I enjoy working in a
+      team with different people and cultures and exchanging knowledge.
+      <br />
+      I thrive when I get a chance to
+      <span class="light-green-text">help and motivate others</span>. As a Team
+      Lead, I enjoy training new hires and teaching them new skills that will
+      help them advance personally and professionally. I am always striving to
+      improve my skills and to learn new technologies.
+    </p>
+    <!-- Hard Skills List -->
+    <skill-component [skillList]="hardSkills"></skill-component>
+    <!-- Experience Description -->
+    <div class="grid grid-cols-4 mb-3">
+      <div class="time-experience">
+        <h4>{{ "2022 - PRESENT" }}</h4>
       </div>
-      <p class="text-description">
-        My passion is to
-        <span class="light-green-text">develop applications</span> for companies
-        that need automated processes to save money and time. I enjoy working in
-        a team with different people and cultures and exchanging knowledge.
-        <br />
-        I thrive when I get a chance to
-        <span class="light-green-text">help and motivate others</span>. As a
-        Team Lead, I enjoy training new hires and teaching them new skills that
-        will help them advance personally and professionally. I am always
-        striving to improve my skills and to learn new technologies.
-      </p>
-      <!-- Hard Skills List -->
-      <skill-component [skillList]="hardSkills"></skill-component>
-      <!-- Experience Description -->
-      <div class="grid grid-cols-4 mb-3">
-        <div class="time-experience">
-          <h4>{{ "2022 - PRESENT" }}</h4>
-        </div>
-        <div class="text-description col-span-3">
-          <h5 class="position-title">Software Engineer | Upland Alfity</h5>
-          <p>
-            As a Full Stack developer, I specialize in both back-end and
-            front-end development, with a focus on building and enhancing mobile
-            applications for Android and React Native platforms. I am proficient
-            in utilizing Git, GitHub, and Azure as software version controllers,
-            while also implementing CI/CD processes through tools like Jenkins
-            and Azure.
-            <br />
-            I prioritize quality through unit testing, employing JUnit and
-            PHPUnit. Collaborating closely with various departments, including
-            cross-location teams, Quality Control, and fellow developers, I
-            ensure streamlined internal processes and efficient task completion.
-            Additionally, I take pride in my role as a mentor, providing
-            training and guidance to new hires as well as mentoring senior and
-            junior developers in their professional growth.
-          </p>
-          <skill-component [skillList]="hardSkills"></skill-component>
-        </div>
+      <div class="text-description col-span-3">
+        <h5 class="position-title">Software Engineer | Upland Alfity</h5>
+        <p>
+          As a Full Stack developer, I specialize in both back-end and front-end
+          development, with a focus on building and enhancing mobile
+          applications for Android and React Native platforms. I am proficient
+          in utilizing Git, GitHub, and Azure as software version controllers,
+          while also implementing CI/CD processes through tools like Jenkins and
+          Azure.
+          <br />
+          I prioritize quality through unit testing, employing JUnit and
+          PHPUnit. Collaborating closely with various departments, including
+          cross-location teams, Quality Control, and fellow developers, I ensure
+          streamlined internal processes and efficient task completion.
+          Additionally, I take pride in my role as a mentor, providing training
+          and guidance to new hires as well as mentoring senior and junior
+          developers in their professional growth.
+        </p>
+        <skill-component [skillList]="hardSkills"></skill-component>
       </div>
-      <!-- Certifcations -->
-      <div class="certification-description w-full grid grid-cols-4">
-        <div class="date">
-          <span>OCTOBER 2022</span>
-        </div>
-        <div class="text-description col-span-3">
-          <div class="certification-info light-green-tex">
-            <h5 class="light-green-text">Microsoft Azure Fundamentals</h5>
-            <p>nu4a-Dw8E</p>
-          </div>
+    </div>
+    <!-- Certifcations -->
+    <div class="certification-description w-full grid grid-cols-4">
+      <div class="date">
+        <span>OCTOBER 2022</span>
+      </div>
+      <div class="text-description col-span-3">
+        <div class="certification-info light-green-tex">
+          <h5 class="light-green-text">Microsoft Azure Fundamentals</h5>
+          <p>nu4a-Dw8E</p>
         </div>
       </div>
     </div>
