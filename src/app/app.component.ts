@@ -18,13 +18,15 @@ export class AppComponent {
   hardSkills: Option[] = [];
   constructor() {
     this.menuOptions = [
-      { label: 'Option 1' },
-      { label: 'Option 2' },
-      { label: 'Option 3' },
-      { label: 'Option 4' },
-      { label: 'Option 5' },
+      { label: 'ABOUT' },
+      { label: 'EXPERIENCE' },
+      { label: 'CERTIFICATIONS' },
+      { label: 'EDUCATION' },
+      { label: 'PROYECTS' },
     ];
     this.hardSkills = [
+      { label: 'SalesForce' },
+      { label: 'Angular' },
       { label: 'Laravel' },
       { label: 'Yii2' },
       { label: 'ECMAScript 6' },
