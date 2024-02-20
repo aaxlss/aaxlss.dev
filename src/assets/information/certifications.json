@@ -1,0 +1,119 @@
+[
+  {
+    "time": "OCT 2022",
+    "title": "Microsoft Certified Azure Fundamentals",
+    "description": "Demonstrated foundational knowledge of cloud concepts and Microsoft Azure, including its architectural components, services (compute, networking, storage), and security, governance, and administration features. Prepared to pursue deeper technical specializations within the Azure platform.",
+    "skills": [
+      {
+        "label": "Azure"
+      },
+      {
+        "label": "Cloud Data"
+      },
+      {
+        "label": "Cloud Networking"
+      },
+      {
+        "label": "Cloud Security"
+      },
+      {
+        "label": "Cloud Services"
+      },
+      {
+        "label": "Cloud Storage"
+      },
+      {
+        "label": "Virtualization"
+      },
+      {
+        "label": "Software as a Service (SaaS)"
+      },
+      {
+        "label": "Platform as a Service (PaaS)"
+      },
+      {
+        "label": "Infrastructure as a SystemIaaS"
+      }
+    ]
+  },
+  {
+    "time": "MAY 2021",
+    "title": "Scrum FOundation Professional Certificate",
+    "description": "Scrum Foundation Professional Certification holders have developed entry-level skills in Scrum that endorse their fundamental knowledge in this framework. They have demonstrated an understanding of the empirical Scrum pillars of transparency, inspection, and adaptation. Their primary focus is on the work of Sprint to make the best possible progress toward these goals.",
+    "skills": [
+      {
+        "label": "Agile"
+      },
+      {
+        "label": "Agile Mindset"
+      },
+      {
+        "label": "Agile Practices"
+      },
+      {
+        "label": "Agile Teams"
+      },
+      {
+        "label": "Scrum"
+      },
+      {
+        "label": "Scrum Artifacts"
+      },
+      {
+        "label": "Scrum Events"
+      },
+      {
+        "label": "Scrum Roles"
+      },
+      {
+        "label": "Scrum Theory"
+      }
+    ]
+  },
+  {
+    "time": "MAY 2021",
+    "title": "Scrum Master Professional Certificate - SMPC",
+    "description": "Scrum Master Professional Certificate holders have an understanding of Scrum theory, practices, and rules, both within the Scrum Team and the organization with the ability to apply them to all industries. They will be able to demonstrate their knowledge and compression of Agile mindset and values, continuous improvement, team leadership, performance, and coaching the team members in self-management and cross-functionality.",
+    "skills": [
+      {
+        "label": "Agile"
+      },
+      {
+        "label": "Agile Mindset"
+      },
+      {
+        "label": "Agile Practices"
+      },
+      {
+        "label": "Agile Teams"
+      },
+      {
+        "label": "Continous Process Improvement"
+      },
+      {
+        "label": "Scrum Artifacts"
+      },
+      {
+        "label": "Scrum Events"
+      },
+      {
+        "label": "Scrum Roles"
+      },
+      {
+        "label": "Scrum Theory"
+      },
+      {
+        "label": "Scrum Methodology"
+      },
+      {
+        "label": "Scrum Team"
+      },
+      {
+        "label": "Scrum Values"
+      },
+      {
+        "label": "Selft-Management"
+      }
+    ]
+  }
+]

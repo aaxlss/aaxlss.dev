@@ -68,7 +68,18 @@
       [skills]="exp.skills"
     ></experience-component>
     }
+    <!-- Education-->
+    <div class="w-full">
+      @for (edu of education; track $index) {
 
+      <experience-component
+        [time]="edu.time"
+        [title]="edu.title"
+        [description]="edu.description"
+        [skills]="edu.skills"
+      ></experience-component>
+      }
+    </div>
     <!-- Certifcations -->
     <div class="w-full">
       @for (certification of certifications; track $index) {
