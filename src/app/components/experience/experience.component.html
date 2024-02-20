@@ -1,0 +1,12 @@
+<div class="grid grid-cols-4 mb-3 w-full">
+  <div class="time-experience justify-start">
+    <h4>{{ time }}</h4>
+  </div>
+  <div class="text-description col-span-3">
+    <h5 class="position-title">{{ title }}</h5>
+    <p>
+      {{ description }}
+    </p>
+    <skill-component [skillList]="skills"></skill-component>
+  </div>
+</div>

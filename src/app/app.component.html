@@ -60,42 +60,26 @@
     <!-- Hard Skills List -->
     <skill-component [skillList]="hardSkills"></skill-component>
     <!-- Experience Description -->
-    <div class="grid grid-cols-4 mb-3">
-      <div class="time-experience">
-        <h4>{{ "2022 - PRESENT" }}</h4>
-      </div>
-      <div class="text-description col-span-3">
-        <h5 class="position-title">Software Engineer | Upland Alfity</h5>
-        <p>
-          As a Full Stack developer, I specialize in both back-end and front-end
-          development, with a focus on building and enhancing mobile
-          applications for Android and React Native platforms. I am proficient
-          in utilizing Git, GitHub, and Azure as software version controllers,
-          while also implementing CI/CD processes through tools like Jenkins and
-          Azure.
-          <br />
-          I prioritize quality through unit testing, employing JUnit and
-          PHPUnit. Collaborating closely with various departments, including
-          cross-location teams, Quality Control, and fellow developers, I ensure
-          streamlined internal processes and efficient task completion.
-          Additionally, I take pride in my role as a mentor, providing training
-          and guidance to new hires as well as mentoring senior and junior
-          developers in their professional growth.
-        </p>
-        <skill-component [skillList]="hardSkills"></skill-component>
-      </div>
-    </div>
+    @for (exp of experience; track $index) {
+    <experience-component
+      [time]="exp.time"
+      [title]="exp.title"
+      [description]="exp.description"
+      [skills]="exp.skills"
+    ></experience-component>
+    }
+
     <!-- Certifcations -->
-    <div class="certification-description w-full grid grid-cols-4">
-      <div class="date">
-        <span>OCTOBER 2022</span>
-      </div>
-      <div class="text-description col-span-3">
-        <div class="certification-info light-green-tex">
-          <h5 class="light-green-text">Microsoft Azure Fundamentals</h5>
-          <p>nu4a-Dw8E</p>
-        </div>
-      </div>
+    <div class="w-full">
+      @for (certification of certifications; track $index) {
+
+      <experience-component
+        [time]="certification.time"
+        [title]="certification.title"
+        [description]="certification.description"
+        [skills]="certification.skills"
+      ></experience-component>
+      }
     </div>
   </div>
 </div>

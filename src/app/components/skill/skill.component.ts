@@ -9,5 +9,5 @@ import { Option } from '../../Interface';
   styleUrl: './skill.component.scss',
 })
 export class SkillComponent {
-  @Input() skillList: Option[] = [];
+  @Input() skillList?: Option[] = [];
 }
