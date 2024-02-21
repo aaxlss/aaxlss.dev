@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/aaxlss.dev/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
