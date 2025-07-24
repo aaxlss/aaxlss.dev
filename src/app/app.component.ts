@@ -32,11 +32,11 @@ export class AppComponent {
   certifications: Experience[] = [];
   constructor() {
     this.menuOptions = [
-      { label: 'ABOUT' },
-      { label: 'EXPERIENCE' },
-      { label: 'CERTIFICATIONS' },
-      { label: 'EDUCATION' },
-      { label: 'PROYECTS' },
+      { label: 'ABOUT', sectionId: 'about' },
+      { label: 'EXPERIENCE', sectionId: 'experience' },
+      { label: 'CERTIFICATIONS', sectionId: 'certifications' },
+      { label: 'EDUCATION', sectionId: 'education' },
+      { label: 'PROYECTS', sectionId: 'projects' },
     ];
     this.hardSkills = [
       { label: 'SalesForce' },

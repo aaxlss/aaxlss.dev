@@ -3,11 +3,13 @@
     @for (option of menuOptions; track option.label){
     <li
       class="border-l-2 border-solid border-white ml-0 m-2 list-none hover:border-l-8 hover:duration-500"
+      (click)="scrollToSection(option)"
     >
       <span class="pl-1">
         {{ option.label | uppercase }}
       </span>
     </li>
+
     } @empty {
     <span>No Options available</span>
     }

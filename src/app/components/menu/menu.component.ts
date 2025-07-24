@@ -11,4 +11,13 @@ import { UpperCasePipe } from '@angular/common';
 })
 export class MenuComponent {
   @Input() menuOptions: Option[] = [];
+
+  scrollToSection(option: Option): void {
+    if (option.sectionId) {
+      const element = document.getElementById(option.sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+  }
 }
