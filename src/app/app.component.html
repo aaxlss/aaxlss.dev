@@ -1,6 +1,17 @@
 <div class="lg:grid lg:grid-cols-6">
+  <header class="lg:hidden sticky top-0 z-20 bg-slate-900/75 backdrop-blur-sm">
+    <div class="px-6 py-3">
+      <menu-component [menuOptions]="menuOptions"></menu-component>
+    </div>
+  </header>
   <!-- Left Section -->
   <div class="left-div lg:col-span-3 px-6 py-12 lg:sticky lg:top-0 lg:h-screen">
+    <div class="lg:hidden grid grid-cols-1 place-items-center mb-8">
+      <img
+        src="/assets/images/axel_sanchez.jpeg"
+        class="profile-img w-48 h-48 md:w-60 md:h-60 p-1 rounded-full ring-4"
+      />
+    </div>
     <div class="lg:h-full grid grid-rows-4 grid-cols-1">
       <div class="intro row-span-2 flex flex-col justify-center">
         <h2 class="name text-5xl md:text-7xl lg:text-8xl font-black">
@@ -10,14 +21,14 @@
         <p class="description" id="description">
           Passionate engineer developing applications, encouraging teamwork,
           empowering others, and continuously learning.
-          <br />
-          Extensive experience since 2016.
         </p>
       </div>
-      <div class="grid place-items-start items-center row-span-1">
+      <div
+        class="hidden lg:grid place-items-start items-center row-span-1 mt-6 mb-6"
+      >
         <menu-component [menuOptions]="menuOptions"></menu-component>
       </div>
-      <div class="row-span-1 pt-4">
+      <div class="grid place-items-start items-center row-span-1 pt-4">
         <div
           class="social-network grid-rows-1 grid-cols-1 place-items-start inline-flex"
         >
@@ -41,7 +52,7 @@
   <div
     class="right-div p-6 md:p-9 lg:py-12 lg:col-start-4 lg:col-end-7 lg:overflow-y-auto"
   >
-    <div class="grid grid-cols-1 place-content-center mb-8">
+    <div class="hidden lg:grid grid-cols-1 place-items-center mb-8">
       <img
         src="/assets/images/axel_sanchez.jpeg"
         class="profile-img w-48 h-48 md:w-60 md:h-60 p-1 rounded-full ring-4"

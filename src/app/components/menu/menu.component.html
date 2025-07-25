@@ -1,11 +1,13 @@
 <div class="menu-box">
-  <ul class="menu m-0 p-0 box-border">
+  <ul
+    class="menu m-0 p-0 box-border flex flex-row flex-wrap justify-center lg:flex-col lg:items-start"
+  >
     @for (option of menuOptions; track option.label){
     <li
       class="border-l-2 border-solid border-white ml-0 m-2 list-none hover:border-l-8 hover:duration-500"
       (click)="scrollToSection(option)"
     >
-      <span class="pl-1">
+      <span class="lg:pl-2">
         {{ option.label | uppercase }}
       </span>
     </li>
