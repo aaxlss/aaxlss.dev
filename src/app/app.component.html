@@ -1,7 +1,12 @@
 <div class="lg:grid lg:grid-cols-6">
+  @if (loading) {
+    <div class="col-span-6 flex justify-center items-center min-h-screen">
+      <app-loading></app-loading>
+    </div>
+  } @else {
   <header class="lg:hidden sticky top-0 z-20 bg-slate-900/75 backdrop-blur-sm">
     <div class="px-6 py-3">
-      <menu-component [menuOptions]="menuOptions"></menu-component>
+      <app-navigation [menuOptions]="menuOptions"></app-navigation>
     </div>
   </header>
   <!-- Left Section -->
@@ -26,7 +31,7 @@
       <div
         class="hidden lg:grid place-items-start items-center row-span-1 mt-6 mb-6"
       >
-        <menu-component [menuOptions]="menuOptions"></menu-component>
+        <app-navigation [menuOptions]="menuOptions"></app-navigation>
       </div>
       <div class="grid place-items-start items-center row-span-1 pt-4">
         <div
@@ -79,46 +84,47 @@
       <h3 class="text-lg font-bold uppercase text-white mb-4 tracking-widest">
         Skills
       </h3>
-      <skill-component [skillList]="hardSkills"></skill-component>
+      <app-skill [skillList]="hardSkills"></app-skill>
     </div>
     <div id="experience" class="mt-12 scroll-mt-24">
       <h3 class="text-lg font-bold uppercase text-white mb-4 tracking-widest">
         Experience
       </h3>
-      @for (exp of experience; track $index) {
-      <experience-component
+      @for (exp of experience; track trackByExperience($index, exp)) {
+      <app-experience
         [time]="exp.time"
         [title]="exp.title"
         [description]="exp.description"
         [skills]="exp.skills"
-      ></experience-component>
+      ></app-experience>
       }
     </div>
     <div id="education" class="mt-12 scroll-mt-24">
       <h3 class="text-lg font-bold uppercase text-white mb-4 tracking-widest">
         Education
       </h3>
-      @for (edu of education; track $index) {
-      <experience-component
+      @for (edu of education; track trackByExperience($index, edu)) {
+      <app-experience
         [time]="edu.time"
         [title]="edu.title"
         [description]="edu.description"
         [skills]="edu.skills"
-      ></experience-component>
+      ></app-experience>
       }
     </div>
     <div id="certifications" class="mt-12 scroll-mt-24">
       <h3 class="text-lg font-bold uppercase text-white mb-4 tracking-widest">
         Certifications
       </h3>
-      @for (certification of certifications; track $index) {
-      <experience-component
+      @for (certification of certifications; track trackByExperience($index, certification)) {
+      <app-experience
         [time]="certification.time"
         [title]="certification.title"
         [description]="certification.description"
         [skills]="certification.skills"
-      ></experience-component>
+      ></app-experience>
       }
     </div>
   </div>
+  }
 </div>
