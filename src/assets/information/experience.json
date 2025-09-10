@@ -1,8 +1,8 @@
 [
   {
     "time": "JAN 2023 - PRESENT",
-    "title": "Software Engineer | Upland Alfity",
-    "description": "As a Full Stack developer, I specialize in both back-end and front-end development, with a focus on building and enhancing mobile applications for Android and React Native platforms. I am proficient in utilizing Git, GitHub, and Azure as software version controllers, while also implementing CI/CD processes through tools like Jenkins and Azure.I prioritize quality through unit testing, employing JUnit and PHPUnit. Collaborating closely with various departments, including cross-location teams, Quality Control, and fellow developers, I ensure streamlined internal processes and efficient task completion. Additionally, I take pride in my role as a mentor, providing training and guidance to new hires as well as mentoring senior and junior developers in their professional growth.",
+    "title": "Software Engineer | Altify",
+    "description": "Salesforce-integrated B2B Sales Enablement Platform. Architected scalable frontend infrastructure by migrating legacy codebase to high-performance Angular framework, significantly improving maintainability, scalability, and user experience for enterprise clients. Designed and deployed production-grade features in fast-paced environment, resolving complex defects while maintaining strict reliability and performance requirements. Built reusable, scalable component libraries for internal teams, promoting consistency and accelerating development workflows across multiple product teams. Led Agile delivery as Scrum Master for 12+ months, facilitating cross-functional collaboration, optimizing delivery pipelines, and removing technical impediments. Implemented seamless enterprise integrations with Salesforce CRM, supporting complex B2B workflows and enterprise-grade functionality.",
     "skills": [
       {
         "label": "Angular"
@@ -14,53 +14,35 @@
         "label": "JavaScript"
       },
       {
-        "label": "Css"
+        "label": "HTML"
       },
       {
-        "label": "Jira"
+        "label": "CSS"
       },
       {
         "label": "Git"
       },
       {
-        "label": "HTML"
-      },
-      {
-        "label": "Unit Testing"
-      },
-      {
-        "label": "!e2e Testing"
-      },
-      {
         "label": "Bitbucket"
+      },
+      {
+        "label": "Salesforce"
+      },
+      {
+        "label": "Scrum Master"
+      },
+      {
+        "label": "Agile"
       }
     ]
   },
   {
-    "time": "MAY 2021 - JUL 2022",
-    "title": "Mobile Tech Lead | Bynaric",
-    "description": "Bynaric is an Irish software development and consulting firm that specializes in solutions for property services, housing associations and companies throughout Ireland and the United Kingdom.\n Research and Development for the company’s platform. \n  I liaise with a variety of other departments within the project, including cross-location teams, on a daily basis, such as Quality Control and other developers, in order to streamline internal processes and maintain a consistently fast and accurate turnaround of incoming tasks. \n Training new hires and mentoring developers",
+    "time": "JAN 2020 - JUL 2022",
+    "title": "Software Developer & Mobile Tech Lead | Bynaric",
+    "description": "Custom Property Management & Survey Solutions for Housing Associations (Ireland & UK). Designed and developed distributed property management platform serving housing associations across Ireland & UK, handling complex workflows for property inspections, audits, and multi-tenant data management. Led mobile development initiatives delivering Android and React Native solutions with clean, maintainable architectures optimized for performance and scalability. Orchestrated cross-functional international teams (Backend, Frontend, Mobile, QA) using Agile methodologies with 2-week SCRUM sprints, ensuring rapid and reliable feature delivery. Mentored engineers at all levels providing technical guidance, architectural decision support, and onboarding for both senior and junior developers. Maintained full-stack distributed systems spanning Java/PHP backends and modern React frontends, ensuring seamless integration and optimal performance.",
     "skills": [
       {
-        "label": "Full-Stack"
-      },
-      {
         "label": "Java"
-      },
-      {
-        "label": "XML"
-      },
-      {
-        "label": "JavaScript"
-      },
-      {
-        "label": "Css"
-      },
-      {
-        "label": "HTML"
-      },
-      {
-        "label": "Git"
       },
       {
         "label": "React JS"
@@ -69,105 +51,155 @@
         "label": "React Native"
       },
       {
-        "label": "Android"
-      },
-      {
         "label": "PHP"
       },
       {
-        "label": "SCRUM"
-      },
-      {
-        "label": "Jenkins"
-      }
-    ]
-  },
-  {
-    "time": "AUG 2017 - FEB 2020",
-    "title": "Full Stack Developer | Augurio Cyber Threat Intelligence Platform",
-    "description": "Augurio Cyber Threat Intelligence is a platform that allows to develop a clear understanding of the current state of the organization in relation to cyber adversaries and their environment. The methodology we used was SCRUM and we used Trello that helped us to manage the control of the task of each member of our team of 10\n In this company I was working on the back-end and front-end side, getting data from databases using API rest. I created functions and interfaces to pull information from the database, to store or modify the data from +database and present the information to customers. I was using Git to control the versions in the code.I was working on the main project that showed information about different subjects related with cyber security, also I was working on the web page of the company using WordPress and modifying some existing projects. \n ",
-    "skills": [
-      {
-        "label": "Full-Stack"
-      },
-      {
-        "label": "Python - Flask"
-      },
-      {
-        "label": "Bootstrap"
-      },
-      {
-        "label": "JavaScript"
-      },
-      {
-        "label": "Css"
+        "label": "XML"
       },
       {
         "label": "HTML"
       },
       {
-        "label": "jQuery"
+        "label": "CSS"
+      },
+      {
+        "label": "Azure DevOps"
       },
       {
         "label": "Git"
       },
       {
-        "label": "MySQL"
+        "label": "Jenkins"
+      },
+      {
+        "label": "JUnit"
+      },
+      {
+        "label": "PHPUnit"
+      },
+      {
+        "label": "Android"
       },
       {
         "label": "SCRUM"
       },
       {
-        "label": "MongoDB"
+        "label": "Leadership"
       }
     ]
   },
   {
-    "time": "AUG 2016 - SEP 2017",
-    "title": "Web Developer | Soluciones TEA",
-    "description": "Soluciones TEA is a startup company that develops software for micro, small and medium sized businesses. The type of customers that this company had were: construction companies, agriculture companies, hospitals, dentists, arcade fixer companies, restaurants and textile companies.\n In this company I used to code in back-end and front-end, also, I was planning new databases and modifying old databases. I used to work in a team of 4 people planning the projects and applying a mix of different methodologies (waterfall and agile).Most of the time I was working on the front-end side creating all the interfaces for each project. Furthermore, I was working on the back-end side creating databases and developing functions or methods to get the information from databases and sending it to the front-end side. The model implemented in the company to develop projects was MVC.\n ",
+    "time": "SEP 2017 - FEB 2020",
+    "title": "Full-Stack Developer | Augurio Cyber Threat Intelligence",
+    "description": "Cyber Threat Intelligence Platform Supporting Risk Assessment and Threat Visibility. Developed and maintained core platform infrastructure enabling real-time threat intelligence data ingestion, processing, and visualization for enterprise security teams. Architected REST API integrations for internal and external data sources, building resilient interfaces for data storage, processing, and real-time display within distributed platform. Collaborated in fast-paced Agile environment with 10-member cross-functional team including security analysts and researchers, using SCRUM methodology (2-week sprints) for rapid iteration. Implemented security-conscious backend systems handling sensitive threat intelligence data with appropriate access controls and data handling protocols. Gained deep expertise in cybersecurity workflows and data processing pipelines through close collaboration with threat intelligence and security research teams.",
     "skills": [
       {
-        "label": "PHP - Yii2 - Laravel"
+        "label": "Python"
+      },
+      {
+        "label": "Flask"
+      },
+      {
+        "label": "JavaScript"
+      },
+      {
+        "label": "jQuery"
+      },
+      {
+        "label": "HTML"
+      },
+      {
+        "label": "CSS"
+      },
+      {
+        "label": "Bootstrap"
+      },
+      {
+        "label": "MySQL"
+      },
+      {
+        "label": "MongoDB"
+      },
+      {
+        "label": "REST APIs"
+      },
+      {
+        "label": "Git"
       },
       {
         "label": "WordPress"
       },
       {
-        "label": "Bootstrap"
+        "label": "SCRUM"
       },
       {
-        "label": "JavaScript"
+        "label": "Cybersecurity"
+      }
+    ]
+  },
+  {
+    "time": "AUG 2016 - AUG 2017",
+    "title": "Jr. Web Developer | Soluciones Tea",
+    "description": "Custom Web & Mobile Solutions Across Construction, Healthcare, Agriculture & Food Industries. Designed and implemented scalable web applications across multiple industries, ensuring optimal performance and usability for diverse use cases. Developed backend logic and database systems using MVC architecture, implementing efficient data retrieval, processing, and transmission across application layers. Built cross-platform solutions for both web and Android environments, maintaining consistent functionality and performance standards. Contributed to hybrid project methodologies balancing Waterfall and Agile practices based on client requirements and technical complexity.",
+    "skills": [
+      {
+        "label": "PHP"
       },
       {
-        "label": "Css"
+        "label": "Laravel"
       },
       {
-        "label": "HTML"
-      },
-      {
-        "label": "jQuery"
-      },
-      {
-        "label": "Android"
-      },
-      {
-        "label": "Git"
+        "label": "Yii2"
       },
       {
         "label": "MySQL"
       },
       {
-        "label": "Workbench"
+        "label": "HTML"
       },
       {
-        "label": "MongoDB"
+        "label": "CSS"
+      },
+      {
+        "label": "JavaScript"
+      },
+      {
+        "label": "jQuery"
+      },
+      {
+        "label": "Bootstrap"
+      },
+      {
+        "label": "Android Studio"
+      },
+      {
+        "label": "MVC Architecture"
       }
     ]
   },
   {
-    "time": "AUG 2015 - FEB 2016",
-    "title": "Social Service Worker | Instituto Tecnologico de Toluca",
-    "description": "Maintenance of the computer equipment \n- Inventory control\n - Software installation: a distribution of the Linux operating system was installed in each of the computers; CentOS updating all the necessary packages for its correct operation.\n - Network cabling: the cabling of the network with which the database laboratory for internet connection has been relocated. \n - Oracle certification support: for the Oracle SQL / PLSQL certification exam application. and Java Associate.\n - Advising students. "
+    "time": "NOV 2019 - JAN 2020",
+    "title": "Volunteer Web Developer | Hostel Ria Terrace, Portugal",
+    "description": "Website Development & Digital Consulting for Hospitality Business. Enhanced web platform functionality improving usability and integrating payment processing systems for international customers. Optimized content strategy and UX for international travelers, resulting in improved booking conversion rates. Successfully delivered additional project for cleaning company website following initial success. Gained hands-on experience with WordPress ecosystem, booking systems, and integrated payment platforms.",
+    "skills": [
+      {
+        "label": "WordPress"
+      },
+      {
+        "label": "Divi"
+      },
+      {
+        "label": "HBook"
+      },
+      {
+        "label": "PayPal"
+      },
+      {
+        "label": "Stripe"
+      },
+      {
+        "label": "UX Design"
+      }
+    ]
   }
 ]

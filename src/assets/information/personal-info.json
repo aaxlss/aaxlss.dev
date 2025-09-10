@@ -1,0 +1,31 @@
+{
+  "name": {
+    "first": "Axel",
+    "last": "Sanchez",
+    "full": "Axel Sanchez"
+  },
+  "position": {
+    "title": "Software Engineer",
+    "company": "Altify",
+    "full": "Software Engineer at Altify"
+  },
+  "intro": {
+    "short": "Software Engineer with 8+ years of experience designing and delivering scalable backend systems and distributed infrastructure across diverse industries. Passionate about building reliable, observable systems that automate workflows and create measurable impact.",
+    "full": "Software Engineer with 8+ years of experience designing and delivering scalable backend systems and distributed infrastructure across diverse industries. Proven expertise in cloud platforms, API development, and enterprise-scale system architecture. Passionate about building reliable, observable systems that automate workflows and create measurable impact. Strong background in Agile leadership and cross-functional collaboration. Currently pursuing Master's in Human-Centered Artificial Intelligence with focus on Machine Learning and Neural Networks, eager to contribute to building safe and beneficial AI systems."
+  },
+  "contact": {
+    "email": "",
+    "phone": "",
+    "location": "",
+    "social": {
+      "github": "",
+      "linkedin": "",
+      "website": "aaxlss.dev"
+    }
+  },
+  "images": {
+    "profile": "/assets/images/axel_sanchez.jpeg",
+    "github_icon": "/assets/images/github.svg",
+    "linkedin_icon": "/assets/images/linkedIn.svg"
+  }
+}

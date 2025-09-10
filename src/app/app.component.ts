@@ -5,7 +5,7 @@ import { SkillComponent } from './shared/components/skill/skill.component';
 import { NavigationComponent } from './layout/navigation/navigation.component';
 import { ExperienceComponent } from './features/experience/experience.component';
 import { LoadingComponent } from './shared/components/loading/loading.component';
-import { Experience, MenuOption, Skill } from './core/models';
+import { Experience, MenuOption, Skill, PersonalInfo, NavigationConfig } from './core/models';
 import { DataService } from './core/services';
 
 @Component({
@@ -24,6 +24,12 @@ import { DataService } from './core/services';
 })
 export class AppComponent implements OnInit {
   title = 'aaxlss.dev';
+  
+  // Dynamic data from JSON files
+  personalInfo?: PersonalInfo;
+  navigationConfig?: NavigationConfig;
+  
+  // Component data
   menuOptions: MenuOption[] = [];
   hardSkills: Skill[] = [];
   experience: Experience[] = [];
@@ -36,11 +42,17 @@ export class AppComponent implements OnInit {
   async ngOnInit() {
     this.loading = true;
     try {
-      // Load menu options and skills synchronously
-      this.dataService.getMenuOptions().subscribe(options => {
-        this.menuOptions = options;
-      });
-      
+      // Load configuration and personal info
+      const [navigationConfig, personalInfo] = await Promise.all([
+        this.dataService.getNavigationConfig(),
+        this.dataService.getPersonalInfo()
+      ]);
+
+      this.navigationConfig = navigationConfig;
+      this.personalInfo = personalInfo;
+      this.menuOptions = navigationConfig.menuOptions;
+
+      // Load skills synchronously
       this.dataService.getHardSkills().subscribe(skills => {
         this.hardSkills = skills;
       });

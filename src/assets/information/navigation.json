@@ -1,0 +1,22 @@
+{
+  "menuOptions": [
+    { "label": "ABOUT", "sectionId": "about" },
+    { "label": "EXPERIENCE", "sectionId": "experience" },
+    { "label": "CERTIFICATIONS", "sectionId": "certifications" },
+    { "label": "EDUCATION", "sectionId": "education" },
+    { "label": "PROYECTS", "sectionId": "projects" }
+  ],
+  "sectionHeaders": {
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "education": "Education",
+    "certifications": "Certifications",
+    "projects": "Projects"
+  },
+  "messages": {
+    "loading": "Loading...",
+    "noOptionsAvailable": "No Options available",
+    "noDataAvailable": "No data available"
+  }
+}

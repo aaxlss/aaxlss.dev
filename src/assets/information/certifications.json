@@ -1,17 +1,17 @@
 [
   {
     "time": "OCT 2022",
-    "title": "Microsoft Certified Azure Fundamentals",
+    "title": "Microsoft Azure Fundamentals | Microsoft",
     "description": "Demonstrated foundational knowledge of cloud concepts and Microsoft Azure, including its architectural components, services (compute, networking, storage), and security, governance, and administration features. Prepared to pursue deeper technical specializations within the Azure platform.",
     "skills": [
       {
         "label": "Azure"
       },
       {
-        "label": "Cloud Data"
+        "label": "Cloud Computing"
       },
       {
-        "label": "Cloud Networking"
+        "label": "Cloud Architecture"
       },
       {
         "label": "Cloud Security"
@@ -20,99 +20,106 @@
         "label": "Cloud Services"
       },
       {
-        "label": "Cloud Storage"
+        "label": "Infrastructure as a Service"
       },
       {
-        "label": "Virtualization"
+        "label": "Platform as a Service"
       },
       {
-        "label": "Software as a Service (SaaS)"
-      },
-      {
-        "label": "Platform as a Service (PaaS)"
-      },
-      {
-        "label": "Infrastructure as a SystemIaaS"
+        "label": "Software as a Service"
       }
     ]
   },
   {
     "time": "MAY 2021",
-    "title": "Scrum FOundation Professional Certificate",
+    "title": "Scrum Master Professional Certificate - SMPC | CertiProf",
+    "description": "Scrum Master Professional Certificate holders have an understanding of Scrum theory, practices, and rules, both within the Scrum Team and the organization with the ability to apply them to all industries. They will be able to demonstrate their knowledge and comprehension of Agile mindset and values, continuous improvement, team leadership, performance, and coaching the team members in self-management and cross-functionality.",
+    "skills": [
+      {
+        "label": "Scrum Master"
+      },
+      {
+        "label": "Agile Methodology"
+      },
+      {
+        "label": "Team Leadership"
+      },
+      {
+        "label": "Continuous Improvement"
+      },
+      {
+        "label": "Sprint Planning"
+      },
+      {
+        "label": "Team Coaching"
+      },
+      {
+        "label": "Self-Management"
+      },
+      {
+        "label": "Cross-Functionality"
+      }
+    ]
+  },
+  {
+    "time": "MAY 2021",
+    "title": "Scrum Foundation Professional Certificate | CertiProf",
     "description": "Scrum Foundation Professional Certification holders have developed entry-level skills in Scrum that endorse their fundamental knowledge in this framework. They have demonstrated an understanding of the empirical Scrum pillars of transparency, inspection, and adaptation. Their primary focus is on the work of Sprint to make the best possible progress toward these goals.",
     "skills": [
       {
-        "label": "Agile"
+        "label": "Scrum Framework"
       },
       {
-        "label": "Agile Mindset"
+        "label": "Agile Principles"
       },
       {
-        "label": "Agile Practices"
-      },
-      {
-        "label": "Agile Teams"
-      },
-      {
-        "label": "Scrum"
-      },
-      {
-        "label": "Scrum Artifacts"
+        "label": "Sprint Management"
       },
       {
         "label": "Scrum Events"
       },
       {
-        "label": "Scrum Roles"
+        "label": "Scrum Artifacts"
       },
       {
-        "label": "Scrum Theory"
+        "label": "Transparency"
+      },
+      {
+        "label": "Inspection"
+      },
+      {
+        "label": "Adaptation"
       }
     ]
   },
   {
-    "time": "MAY 2021",
-    "title": "Scrum Master Professional Certificate - SMPC",
-    "description": "Scrum Master Professional Certificate holders have an understanding of Scrum theory, practices, and rules, both within the Scrum Team and the organization with the ability to apply them to all industries. They will be able to demonstrate their knowledge and compression of Agile mindset and values, continuous improvement, team leadership, performance, and coaching the team members in self-management and cross-functionality.",
+    "time": "MAY 2016",
+    "title": "Android Certified Professional | Android ATC",
+    "description": "Android Certified Professional certification demonstrating comprehensive knowledge of Android development, including application architecture, UI/UX design, data management, and mobile development best practices. Validates expertise in building robust, performant Android applications using industry standards and modern development practices.",
     "skills": [
       {
-        "label": "Agile"
+        "label": "Android Development"
       },
       {
-        "label": "Agile Mindset"
+        "label": "Java"
       },
       {
-        "label": "Agile Practices"
+        "label": "Kotlin"
       },
       {
-        "label": "Agile Teams"
+        "label": "Mobile Architecture"
       },
       {
-        "label": "Continous Process Improvement"
+        "label": "UI/UX Design"
       },
       {
-        "label": "Scrum Artifacts"
+        "label": "Data Management"
       },
       {
-        "label": "Scrum Events"
+        "label": "Mobile Performance"
       },
       {
-        "label": "Scrum Roles"
-      },
-      {
-        "label": "Scrum Theory"
-      },
-      {
-        "label": "Scrum Methodology"
-      },
-      {
-        "label": "Scrum Team"
-      },
-      {
-        "label": "Scrum Values"
-      },
-      {
-        "label": "Selft-Management"
+        "label": "Android Studio"
       }
     ]
   }

@@ -20,12 +20,52 @@ export interface Skill extends Option {
 }
 
 export interface PersonalInfo {
-  name: string;
-  title: string;
-  email?: string;
-  phone?: string;
-  location?: string;
-  summary?: string;
+  name: {
+    first: string;
+    last: string;
+    full: string;
+  };
+  position: {
+    title: string;
+    company: string;
+    full: string;
+  };
+  intro: {
+    short: string;
+    full: string;
+  };
+  contact: {
+    email?: string;
+    phone?: string;
+    location?: string;
+    social: {
+      github?: string;
+      linkedin?: string;
+      website?: string;
+    };
+  };
+  images: {
+    profile: string;
+    github_icon: string;
+    linkedin_icon: string;
+  };
+}
+
+export interface NavigationConfig {
+  menuOptions: MenuOption[];
+  sectionHeaders: {
+    about: string;
+    skills: string;
+    experience: string;
+    education: string;
+    certifications: string;
+    projects?: string;
+  };
+  messages: {
+    loading: string;
+    noOptionsAvailable: string;
+    noDataAvailable: string;
+  };
 }
 
 export interface SocialLink {

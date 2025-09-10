@@ -11,6 +11,7 @@ import { UpperCasePipe } from '@angular/common';
 })
 export class NavigationComponent {
   @Input() menuOptions: MenuOption[] = [];
+  @Input() noOptionsMessage?: string;
 
   scrollToSection(option: MenuOption): void {
     if (option.sectionId) {
